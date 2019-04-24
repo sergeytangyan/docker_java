@@ -1,0 +1,9 @@
+version: "3.6"
+services:
+        java:
+                build:
+                        context: .
+                volumes:
+                        - "./src:/home/java/src"
+                stdin_open: true
+                tty: true
